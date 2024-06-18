@@ -1,0 +1,16 @@
+TRUNCATE `tbl_customer_info`;
+TRUNCATE `tbl_history_info`;
+TRUNCATE `tbl_movie_about`;
+TRUNCATE `tbl_movie_genre`;
+TRUNCATE `tbl_movie_info`;
+TRUNCATE `tbl_movie_inventory_info`;
+TRUNCATE `tbl_rents_info`;
+
+ALTER TABLE tbl_customer_info AUTO_INCREMENT = 0;
+ALTER TABLE tbl_history_info AUTO_INCREMENT = 0;
+ALTER TABLE tbl_movie_about AUTO_INCREMENT = 0;
+ALTER TABLE tbl_movie_genre AUTO_INCREMENT = 0;
+ALTER TABLE tbl_movie_info AUTO_INCREMENT = 0;
+ALTER TABLE tbl_movie_inventory_info AUTO_INCREMENT = 0;
+ALTER TABLE tbl_rents_info AUTO_INCREMENT = 0;
+
